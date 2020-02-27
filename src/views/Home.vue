@@ -3,8 +3,7 @@
 		<h1>Utviklerportalen</h1>
 		<Profile />
 
-		<h2>Jeg trenger hjelp!</h2>
-		<Martin />
+	  	<Martin />
 
 		<h2>Apier</h2>
 		<Apis />

@@ -1,5 +1,6 @@
 <template>
     <div class="Martin">
+        <h2>Jeg trenger hjelp!</h2>
         <div style="alignment: center; margin-bottom: 1em;">
             <span>Her kan du sende en melding til teamets slack kanal.</span>
         </div>
@@ -36,4 +37,8 @@
 </script>
 
 <style lang="scss" scoped>
+    .Martin {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
 </style>
