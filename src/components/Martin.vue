@@ -1,8 +1,12 @@
 <template>
     <div class="Martin">
+        <h2>Jeg trenger hjelp!</h2>
+        <div style="alignment: center; margin-bottom: 1em;">
+            <span>Her kan du sende en melding til teamets slack kanal.</span>
+        </div>
         <TextInput v-model="message"></TextInput>
         <br/>
-        <BaseButton v-on:click="post_to_slack">Send melding til Utviklerportalen</BaseButton>
+        <BaseButton primary v-on:click="post_to_slack">Send melding til Utviklerportalen</BaseButton>
     </div>
 </template>
 
@@ -33,4 +37,8 @@
 </script>
 
 <style lang="scss" scoped>
+    .Martin {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
 </style>
