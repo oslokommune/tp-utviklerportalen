@@ -5,6 +5,7 @@ import Help from '../views/Help'
 import Inspiration from '../views/Inspiration'
 import Awards from '../views/Awards'
 import Resources from '../views/Resources'
+import Badetemp from '../views/Badetemp'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/resources',
     name: 'Resources',
     component: Resources
+  },
+  {
+    path: '/badetemp',
+    name: 'Badetemp',
+    component: Badetemp
   }
 ]
 
