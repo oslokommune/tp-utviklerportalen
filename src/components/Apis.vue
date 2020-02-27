@@ -22,7 +22,7 @@
 				<div class="list-item-div">
 					<div class="list-item-image">
 						<img style="width: 170px; height: 140px;" alt="badetempratur"
-							 src="../assets/epost.png" />
+							 src="../assets/sms.png" />
 					</div>
 					<div class="list-item-text">
 						<h2>SMS API</h2>
@@ -70,10 +70,6 @@
 <style lang="scss" scoped>
 
 @import '~@tuuturu/styling/style'; // Farger blir hentet herfra
-
-.Inspiration {
-	text-align: left;
-}
 
 	.list-item-div {
 		display: flex;
