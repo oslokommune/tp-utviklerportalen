@@ -1,18 +1,17 @@
 <template>
 	<div class="Interactive">
-		<BaseButton primary @click="active = true">Be om tilgang!</BaseButton>
 		<div class="illustration-container" v-if="!active">
 			<div>
-				<h3>Uten tilgang</h3>
-				<img alt="sad person" src="https://via.placeholder.com/480x720" />
+				<h3>Uten tilgang til APIer</h3>
+				<img alt="sad person" :src="Trist" />
 			</div>
 			<div>
-				<h3>Med tilgang</h3>
-				<img alt="sad person" src="https://via.placeholder.com/480x720" />
+				<h3>Med tilgang til APIer</h3>
+				<img alt="happy person" :src="Glad" />
 			</div>
 		</div>
 		<div class="lockthing-container" v-if="active">
-			<img :src="Key" draggable="true" @dragstart="drag"/>
+			<img class="key" :src="Key" draggable="true" @dragstart="drag"/>
 			<div class="lock-and-data">
 				<img alt="lock" :src="Lock" @drop="drop" @dragover="allowDrop"/>
 				<iframe v-if="unlocked" src="https://www.yr.no/sted/Norge/Oslo/Oslo/Oslo/ekstern_boks_liten.html" width="180" height="322" frameborder="0" scrolling="no"/>
@@ -26,16 +25,22 @@
 import { BaseButton } from '@tuuturu/vue/buttons'
 import Key from '@/assets/nøkkel.png'
 import Lock from '@/assets/Group 35.png'
+import Trist from '@/assets/trist.png'
+import Glad from '@/assets/glad.png'
 
 export default {
 	name: 'Interactive',
 	components: {
 		BaseButton
 	},
+	props: {
+		active: Boolean
+	},
 	data: () => ({
 		Key,
 		Lock,
-		active: false,
+		Glad,
+		Trist,
 		lockSrc: 'https://via.placeholder.com/180x302',
 		unlocked: false,
 		dragging: false
@@ -74,10 +79,13 @@ export default {
 .lock-and-data {
 	display: flex;
 	justify-content: center;
-	border: 1px solid black;
 
 	img {
 		max-height: 302px;
 	}
+}
+
+.key {
+	height: 120px;
 }
 </style>

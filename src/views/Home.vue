@@ -3,14 +3,24 @@
 		<h1>Utviklerportalen</h1>
 		<Profile />
 
-		<h2>Jeg trenger hjelp!</h2>
-		<Martin />
+		<div class="api-text">
+			<div class="wrapper">
+				<h2>API</h2>
+				<p>
+					Et API er en strukturert måte å overføre data fra ett sted til et annet, det vil si en enkel måte å dele og ta i bruk data fra de ulike virksomhetene i kommunen. Om du velger å dele et API i katalogen vil du kunne holde oversikt over både hvor mange det er som bruker det i tillegg til å kunne styre hvem som skal ha tilgang til API-et. For de som vil benytte seg av et eller flere API fra katalogen inneholder de all dokumentasjonen som man trenger for å ta det i bruk.
+				</p>
+			</div>
+		</div>
 
 		<h2>Apier</h2>
 		<Apis />
 
 		<Interactive />
-  </div>
+
+		<h2>Jeg trenger hjelp!</h2>
+		<Martin />
+
+	</div>
 </template>
 
 <script>
@@ -33,5 +43,16 @@ p {
 
 .Profile {
 	width: 100%;
+}
+
+.api-text {
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+
+	div {
+
+	}
 }
 </style>
