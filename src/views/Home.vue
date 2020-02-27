@@ -8,6 +8,8 @@
 
 		<h2>Jan Erik</h2>
 		<JanErik />
+
+		<Interactive />
   </div>
 </template>
 
@@ -17,9 +19,10 @@
 import Martin from '../components/Martin'
 import JanErik from '../components/JanErik'
 import Profile from '../components/Profile'
+import Interactive from '../components/Interactive'
 export default {
   name: 'Home',
-	components: { Profile, JanErik, Martin }
+	components: { Interactive, Profile, JanErik, Martin }
 }
 </script>
 
