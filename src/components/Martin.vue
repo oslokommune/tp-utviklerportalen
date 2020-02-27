@@ -1,8 +1,11 @@
 <template>
     <div class="Martin">
+        <div style="alignment: center; margin-bottom: 1em;">
+            <span>Her kan du sende en melding til teamets slack kanal.</span>
+        </div>
         <TextInput v-model="message"></TextInput>
         <br/>
-        <BaseButton v-on:click="post_to_slack">Send melding til Utviklerportalen</BaseButton>
+        <BaseButton primary v-on:click="post_to_slack">Send melding til Utviklerportalen</BaseButton>
     </div>
 </template>
 
