@@ -29,7 +29,7 @@ export default {
 	}),
 	methods: {
 		post_to_slack: function () {
-			const url = ''
+			const url = 'https://slacker-hackathon.herokuapp.com/slack'
 
 			axios.post(url, JSON.stringify({text: this.message}))
 		}
