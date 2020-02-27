@@ -3,6 +3,7 @@
 		<h1>Utviklerportalen</h1>
 		<Profile />
 
+		<br /><br />
 		<div class="api-text">
 			<div class="wrapper">
 				<h2>API</h2>
@@ -11,13 +12,15 @@
 				</p>
 			</div>
 		</div>
+		<br /><br />
 
 		<h2>Apier</h2>
-		<Apis />
+		<Apis @setActive="active = true"/>
 
-		<Interactive />
+		<br /><br />
+		<Interactive :active="active" />
 
-		<h2>Jeg trenger hjelp!</h2>
+		<br /><br />
 		<Martin />
 
 	</div>
@@ -32,7 +35,10 @@ import Profile from '../components/Profile'
 import Interactive from '../components/Interactive'
 export default {
   name: 'Home',
-	components: { Interactive, Profile, Apis, Martin }
+	components: { Interactive, Profile, Apis, Martin },
+	data: () => ({
+		active: false
+	})
 }
 </script>
 
