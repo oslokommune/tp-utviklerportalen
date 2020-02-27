@@ -11,7 +11,7 @@
 		<p>
 			Eksempler på bruk av følgende komponenter, farger og verktøy finnes i kildekoden til denne filen. Denne
 			ligger i
-			<a href="https://github.com/oslokommune/hackathon-app-template/blob/master/src/views/Help.vue">
+			<a href="https://github.com/oslokommune/tp-utviklerportalen/blob/master/src/views/Help.vue">
 				prosjekt-mappe/src/views/Help.vue
 			</a>
 		</p>
@@ -49,7 +49,7 @@
 		<h2>Typografi</h2>
 		<p>
 			Vi har lagt til stiler på lenker, H1, H2 og H3 samt paragrafer. Hvis dere ønsker å endre disse globale stilene eller legge til egne kan dette gjøres i
-			<a href="https://github.com/oslokommune/hackathon-app-template/blob/master/src/App.vue">prosjekt-mappe/src/App.vue</a>
+			<a href="https://github.com/oslokommune/tp-utviklerportalen/blob/master/src/App.vue">prosjekt-mappe/src/App.vue</a>
 		</p>
 
 
