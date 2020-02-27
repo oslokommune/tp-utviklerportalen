@@ -14,7 +14,7 @@
 							sjekke tempraturen før du bader?</p>
 					</div>
 					<div class="list-item-button">
-						<BaseButton primary @click="$router.push('Badetemp')" style="margin: 1em 0 1em 0;">Pr øv</BaseButton>
+						<BaseButton primary @click="$router.push('Badetemp')" style="margin: 1em 0 1em 0;">Prøv</BaseButton>
 					</div>
 				</div>
 			</li>
