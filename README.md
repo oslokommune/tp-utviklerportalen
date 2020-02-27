@@ -22,7 +22,7 @@ npm run serve
 ```
 Vi har laget en veiledning, denne finnes på [localhost/#/help](http://localhost:8080/#/help) etter man har kjørt 'npm run serve'
 
-### Deploy til [produksjon](https://oslokommune.github.io/hackathon-app-template/)
+### Deploy til [produksjon](https://oslokommune.github.io/tp-utviklerportalen/)
 ```
 git push origin master
 ```
