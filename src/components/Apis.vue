@@ -71,6 +71,11 @@
 
 @import '~@tuuturu/styling/style'; // Farger blir hentet herfra
 
+.Apis {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
 	.list-item-div {
 		display: flex;
 	}
