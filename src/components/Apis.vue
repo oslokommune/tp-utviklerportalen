@@ -75,6 +75,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	margin-bottom: 3em;
 }
 	.list-item-div {
 		display: flex;
