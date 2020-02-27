@@ -1,8 +1,8 @@
 <template>
     <div class="Martin">
-        <TextInput label="Jeg trenger hjelp!" v-model="message"></TextInput>
+        <TextInput v-model="message"></TextInput>
         <br/>
-        <BaseButton v-on:click="post_to_slack">Send melding</BaseButton>
+        <BaseButton v-on:click="post_to_slack">Send melding til Utviklerportalen</BaseButton>
     </div>
 </template>
 
