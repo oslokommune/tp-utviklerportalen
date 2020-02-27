@@ -1,6 +1,6 @@
 <template>
 	<div class="Profile">
-		<img alt="Team photo" src="https://via.placeholder.com/480" />
+		<img alt="Team photo" src="../assets/epost.png" style="height: 480px; width: 480px" />
 		<p>
 			Utviklerportalen er et felles sted der virksomhetene i Oslo kommune kan finne tilgjengelige ressurser for utvikling av tjenester. I portalen kan du se en oversikt over tilgjengelige tjenester, dokumentasjon og retningslinjer. Blant annet kan du finne en API- og datakatalog som gir deg en oversikt over hvilke API-er og data som er tilgjengelig fra de ulike virksomhetene i kommunen. Som utvikler i Oslo kommune har du tilgang til alle API-ene, og kan bruke disse fritt til å lage nye tjenester.
 		</p>

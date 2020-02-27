@@ -6,8 +6,8 @@
 		<h2>Martin</h2>
 		<Martin />
 
-		<h2>Jan Erik</h2>
-		<JanErik />
+		<h2>Apier</h2>
+		<Apis />
 
 		<Interactive />
   </div>
@@ -17,12 +17,12 @@
 // @ is an alias to /src
 
 import Martin from '../components/Martin'
-import JanErik from '../components/JanErik'
+import Apis from '../components/Apis'
 import Profile from '../components/Profile'
 import Interactive from '../components/Interactive'
 export default {
   name: 'Home',
-	components: { Interactive, Profile, JanErik, Martin }
+	components: { Interactive, Profile, Apis, Martin }
 }
 </script>
 

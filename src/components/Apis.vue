@@ -1,5 +1,5 @@
 <template>
-	<div class="JanErik">
+	<div class="Apis">
 		<ul>
 			<li class="list-item">
 				<div class="list-item-div">
@@ -14,7 +14,8 @@
 							sjekke tempraturen før du bader?</p>
 					</div>
 					<div class="list-item-button">
-						<BaseButton primary style="margin: 1em 0 1em 0;">Prøv</BaseButton>
+						<BaseButton primary @click="$router.push('Badetemp')" style="margin: 1em 0 1em 0;">Pr
+							øv</BaseButton>
 					</div>
 				</div>
 			</li>
@@ -46,7 +47,7 @@
 							epost fra tjenesten din?</p>
 					</div>
 					<div class="list-item-button">
-						<BaseButton primary @click="$router.push('Badetemp')" style="margin: 1em 0 1em 0;">Prøv</BaseButton>
+						<BaseButton primary style="margin: 1em 0 1em 0;">Prøv</BaseButton>
 					</div>
 				</div>
 			</li>
@@ -59,7 +60,7 @@
 	import {TextInput} from "@tuuturu/vue/forms"; // Knappene finnes her
 
 	export default {
-		name: 'JanErik',
+		name: 'Apis',
 		components: {
 			BaseButton
 		},
