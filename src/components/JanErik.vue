@@ -4,7 +4,8 @@
 			<li class="list-item">
 				<div class="list-item-div">
 					<div class="list-item-image">
-						<img alt="clippy" src="https://media.giphy.com/media/13V60VgE2ED7oc/giphy.gif" />
+						<img style="width: 170px; height: 140px;" alt="badetempratur"
+							 src="../assets/badetemperatur.png" />
 					</div>
 					<div class="list-item-text">
 						<h2>Badetempratur API</h2>
@@ -20,7 +21,8 @@
 			<li>
 				<div class="list-item-div">
 					<div class="list-item-image">
-						<img alt="clippy" src="https://media.giphy.com/media/13V60VgE2ED7oc/giphy.gif" />
+						<img style="width: 170px; height: 140px;" alt="badetempratur"
+							 src="../assets/epost.png" />
 					</div>
 					<div class="list-item-text">
 						<h2>SMS API</h2>
@@ -35,7 +37,8 @@
 			<li>
 				<div class="list-item-div">
 					<div class="list-item-image">
-						<img alt="clippy" src="https://media.giphy.com/media/13V60VgE2ED7oc/giphy.gif" />
+						<img style="width: 170px; height: 140px;" alt="badetempratur"
+							 src="../assets/epost.png" />
 					</div>
 					<div class="list-item-text">
 						<h2>Epost API</h2>
