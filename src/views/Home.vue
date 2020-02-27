@@ -1,12 +1,15 @@
 <template>
   <div class="home">
-		<h1>Værsego'! Lag magi</h1>
+		<h1>Utviklerportalen</h1>
+		<Profile />
 
 		<h2>Martin</h2>
 		<Martin />
 
 		<h2>Jan Erik</h2>
 		<JanErik />
+
+		<Interactive />
   </div>
 </template>
 
@@ -15,9 +18,11 @@
 
 import Martin from '../components/Martin'
 import JanErik from '../components/JanErik'
+import Profile from '../components/Profile'
+import Interactive from '../components/Interactive'
 export default {
   name: 'Home',
-	components: { JanErik, Martin }
+	components: { Interactive, Profile, JanErik, Martin }
 }
 </script>
 
@@ -25,7 +30,8 @@ export default {
 p {
 	font-family: 'Oslo Sans', Avenir, Helvetica, Arial, sans-serif;
 }
-p.old {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
+
+.Profile {
+	width: 100%;
 }
 </style>
