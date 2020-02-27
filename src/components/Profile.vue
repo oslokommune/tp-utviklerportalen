@@ -2,8 +2,7 @@
 	<div class="Profile">
 		<img alt="Team photo" src="https://via.placeholder.com/480" />
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipiscing elit tristique vehicula nisl lobortis vestibulum metus a bibendum, vitae est suscipit ridiculus parturient nunc nibh sociis urna sapien at leo pharetra netus. Nulla volutpat placerat eu sapien faucibus magna morbi, eros massa lectus sodales aenean. Curabitur eu hendrerit tristique id in accumsan nunc etiam maecenas, lacus curae tellus mollis tincidunt pretium facilisi.
-			Erat feugiat donec eu cras venenatis etiam sem sociis nulla, neque enim lacinia lacus laoreet orci curae montes quam, facilisis sapien massa tincidunt augue bibendum euismod sed. Dictum habitasse sem viverra venenatis ac praesent donec aenean diam vehicula pulvinar a est gravida himenaeos, imperdiet lectus ornare rutrum varius ultrices nulla class cubilia fusce quam litora faucibus. Quam placerat dapibus fames eu per eros senectus rutrum ac lobortis convallis, dictum cras hendrerit ante euismod cubilia sagittis ullamcorper dui.
+			Utviklerportalen er et felles sted der virksomhetene i Oslo kommune kan finne tilgjengelige ressurser for utvikling av tjenester. I portalen kan du se en oversikt over tilgjengelige tjenester, dokumentasjon og retningslinjer. Blant annet kan du finne en API- og datakatalog som gir deg en oversikt over hvilke API-er og data som er tilgjengelig fra de ulike virksomhetene i kommunen. Som utvikler i Oslo kommune har du tilgang til alle API-ene, og kan bruke disse fritt til å lage nye tjenester.
 		</p>
 	</div>
 </template>
