@@ -21,7 +21,7 @@ jobs:
           persist-credentials: false
       - run: npm ci
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.JULIUS_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: npm run build
         env:
           NODE_ENV: production
