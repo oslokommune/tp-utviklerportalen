@@ -35,7 +35,7 @@
 		<p>
 			Fargene er hentet ut fra
 			<a href="https://styleguide.oslo.kommune.no/#/pattern/globals-colors-palette">Oslo Styleguide</a>
-			og dere har tilgang til alle fargene via scss importen <code>@import '~@tuuturu/styling/style';</code>
+			og dere har tilgang til alle fargene via scss importen <code>@import '~@oslokommune/styling/style';</code>
 			<br />
 			For eksempel kan man bruke:
 		</p>
@@ -63,8 +63,8 @@
 </template>
 
 <script>
-import { BaseButton } from '@tuuturu/vue/buttons' // Knappene finnes her
-import { TextInput } from '@tuuturu/vue/forms' // Skjema-komponenter her
+import { BaseButton } from '@oslokommune/vue/buttons' // Knappene finnes her
+import { TextInput } from '@oslokommune/vue/forms' // Skjema-komponenter her
 
 export default {
 	name: 'help',
@@ -78,7 +78,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~@tuuturu/styling/style'; // Farger blir hentet herfra
+@import '~@oslokommune/styling/style'; // Farger blir hentet herfra
 
 .Help {
 	text-align: left;

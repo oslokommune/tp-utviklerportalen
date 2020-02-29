@@ -23,7 +23,7 @@
 
 
 <script>
-import { BaseButton } from '@tuuturu/vue/buttons'
+import { BaseButton } from '@oslokommune/vue/buttons'
 import Key from '@/assets/nøkkel.png'
 import Lock from '@/assets/Group 35.png'
 import Trist from '@/assets/trist.png'

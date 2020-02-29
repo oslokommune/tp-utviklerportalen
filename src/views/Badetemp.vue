@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import { BaseButton } from '@tuuturu/vue/buttons' // Knappene finnes her
-import { TextInput } from '@tuuturu/vue/forms' // Skjema-komponenter her
+import { BaseButton } from '@oslokommune/vue/buttons' // Knappene finnes her
+import { TextInput } from '@oslokommune/vue/forms' // Skjema-komponenter her
 
 export default {
 	name: 'help',
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~@tuuturu/styling/style'; // Farger blir hentet herfra
+@import '~@oslokommune/styling/style'; // Farger blir hentet herfra
 
 .Badetemp {
 	text-align: left;

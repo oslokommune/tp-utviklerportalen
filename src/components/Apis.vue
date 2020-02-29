@@ -55,8 +55,8 @@
 </template>
 
 <script>
-	import { BaseButton } from '@tuuturu/vue/buttons'
-	import {TextInput} from "@tuuturu/vue/forms"; // Knappene finnes her
+	import { BaseButton } from '@oslokommune/vue/buttons'
+	import {TextInput} from "@oslokommune/vue/forms"; // Knappene finnes her
 
 	export default {
 		name: 'Apis',
@@ -69,7 +69,7 @@
 
 <style lang="scss" scoped>
 
-@import '~@tuuturu/styling/style'; // Farger blir hentet herfra
+@import '~@oslokommune/styling/style'; // Farger blir hentet herfra
 
 .Apis {
 	width: 100%;

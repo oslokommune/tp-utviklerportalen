@@ -18,8 +18,8 @@
 <script>
 import axios from 'axios'
 
-import { BaseButton } from '@tuuturu/vue/buttons'
-import { TextInput } from '@tuuturu/vue/forms'
+import { BaseButton } from '@oslokommune/vue/buttons'
+import { TextInput } from '@oslokommune/vue/forms'
 
 export default {
 	name: 'Martin',
@@ -38,7 +38,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~@tuuturu/styling/style';
+@import '~@oslokommune/styling/style';
 
 .Martin {
 	width: 100%;

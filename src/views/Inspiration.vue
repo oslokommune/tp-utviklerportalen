@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '~@tuuturu/styling/style'; // Farger blir hentet herfra
+@import '~@oslokommune/styling/style'; // Farger blir hentet herfra
 
 .Inspiration {
 	text-align: left;
